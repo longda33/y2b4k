@@ -201,8 +201,8 @@ $footer='<footer class="w3-container w3-red w3-center" style="width: 100%;bottom
 switch (@$_SERVER['PATH_INFO']) {
     case '/watch':
        echo $header;
-       echo '<div class="w3-container w3-center tj"><div class="w3-panel w3-pale-yellow w3-topbar w3-bottombar w3-border-yellow">
-    <p>不能观看请刷新,多试几次，若页面一直处于加载状态，可手动停止！</p>
+       echo '<div class="w3-container w3-center tj"><div 
+    
   </div></div>';
        echo '<div class="w3-container w3-center bfq">
             <iframe width="100%" height="100%" src="https://'.$_SERVER['SERVER_NAME'].'/Proxy.php?https://www.youtube.com/embed/'.trim($_SERVER[QUERY_STRING]).'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
